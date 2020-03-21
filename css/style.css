@@ -130,7 +130,8 @@ img {
 
 /* 記事部分 */
 article {
-    width: 74%;
+    width: 60%;
+    order: 2;
 }
 
 .post-info {
@@ -183,6 +184,7 @@ article p {
 /* サイドバー */
 aside {
     width: 22%;
+    order: 3;
 }
 
 aside p {
@@ -213,6 +215,10 @@ aside p {
 
 .sub-menu a:hover {
     color: #0bd;
+}
+
+.ad {
+    order: 1;
 }
 
 /* フッター
